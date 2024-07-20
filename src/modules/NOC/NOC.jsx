@@ -1,17 +1,24 @@
-import HowItWorks from "./components/HowItWorks.jsx";
-import MonitoringEnv from "./components/MonitoringEnv.jsx";
-import MonitoringSolution from "./components/MonitoringSolution.jsx";
-import NocBanner from "./components/NocBanner.jsx";
-import NocTeam from "./components/NocTeam.jsx";
+import Banner from "../../components/Banner";
+import Monitor from "./components/Monitor";
+import MonitorEnv from "./components/MonitorEnv";
+import NocTeam from "./components/NocTeam";
+import Works from "./components/Works";
+
 
 const NOC = () => {
   return (
     <div>
       <NocBanner />
-      <MonitoringSolution />
+      <Banner
+        mainText="24/7 proactive monitoring"
+        secondText="So it is always secure and available to your clients.​"
+      />
+     
+      <Monitor />
       <NocTeam />
-      <HowItWorks />
-      <MonitoringEnv />
+      <Works />
+      <MonitorEnv />
+      
     </div>
   );
 };

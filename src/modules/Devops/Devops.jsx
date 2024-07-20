@@ -1,6 +1,7 @@
 import DevopsBanner from "./components/DevopsBanner";
 import DevOpsServices from "./components/DevOpsServices";
 import DevOpsTeam from "./components/DevopsTeam";
+import Production from "./components/Production";
 
 const Devops = () => {
   return (
@@ -8,6 +9,7 @@ const Devops = () => {
       <DevopsBanner />
       <DevOpsTeam />
       <DevOpsServices />
+      <Production />
     </div>
   );
 };

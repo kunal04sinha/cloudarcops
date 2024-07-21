@@ -3,13 +3,13 @@ import TeamCard from "./TeamCard";
 
 const DevOpsTeam = () => {
   return (
-    <>
-      <h2 className="text-center md:text-[60px] leading-[32px] font-bold my-9 text-[36px]">
+    <div className="py-12 px-4 md:py-24 bg-gray-100">
+      <h2 className="text-center text-3xl md:text-5xl font-bold mb-9">
         Your DevOps Team
       </h2>
-      <div className="flex items-center justify-center md:items-start w-full gap-7 flex-wrap">
+      <div className="flex flex-wrap justify-center gap-7">
         <TeamCard
-          icon="https://iamops.io/wp-content/uploads/2022/05/DevOps-5-1024x717.png"
+          // icon="https://iamops.io/wp-content/uploads/2022/05/DevOps-5-1024x717.png"
           title="Head Of DevOps"
           description="Responsible for ensuring the ideation and implementation of the best infrastructure and tech stack."
         />
@@ -24,7 +24,7 @@ const DevOpsTeam = () => {
           description="Dedicated to your tech team and business values. They act as the main point of contact for your DevOps Team."
         />
       </div>
-    </>
+    </div>
   );
 };
 

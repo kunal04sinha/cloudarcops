@@ -1,4 +1,5 @@
 import DevopsBanner from "./components/DevopsBanner";
+import Banner from "../../components/Banner";
 import DevOpsServices from "./components/DevOpsServices";
 import DevOpsTeam from "./components/DevopsTeam";
 import Production from "./components/Production";
@@ -6,7 +7,13 @@ import Production from "./components/Production";
 const Devops = () => {
   return (
     <div>
-      <DevopsBanner />
+      {/* <DevopsBanner /> */}
+      <Banner
+        mainText="Are you a startup struggling to keep pace with rapid software
+          delivery?"
+        secondText="Accelerate with DevOps team ensuring best infrastructure practices.​"
+      />
+
       <DevOpsTeam />
       <DevOpsServices />
       <Production />

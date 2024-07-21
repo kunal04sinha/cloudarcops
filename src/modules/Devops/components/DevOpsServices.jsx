@@ -16,7 +16,7 @@ const DevOpsServices = () => {
             title={service.title}
             description={service.description}
             logoImage={service.logoImage}
-            className={`${index % 2 ? "md:!pl-20" : ""}`}
+            className={`${index % 2 ? "md:!pl-60" : ""}`}
           />
         ))}
       </div>

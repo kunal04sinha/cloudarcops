@@ -4,7 +4,7 @@ import DoubleRightArrowIcon from "../../../assets/icon/DoubleRightArrow";
 
 const DevopsBanner = () => {
   return (
-    <div className="mt-5 relative flex items-center justify-center h-64 md:h-96 bg-gray-800 p-4 overflow-hidden">
+    <div className="mt-5 relative flex items-center justify-center h-fit md:h-96 bg-gray-800 p-4 overflow-hidden">
       <div className="text-center text-white w-full mx-auto flex items-center flex-col">
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight">
           Are you a startup struggling to keep pace with rapid software

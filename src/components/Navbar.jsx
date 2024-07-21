@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../assets/Logo";
 import DropDownMenu from "./DropDownMenu";
+import AccordionMenu from "./AccordionMenu";
 import { Link, useLocation } from "react-router-dom";
 import { paths } from "../const/path";
 
@@ -19,6 +20,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const [activePath, setActivePath] = useState(location.pathname);
+
+  useEffect(() => {
+    setActivePath(location.pathname);
+  }, [location.pathname]);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -51,9 +56,6 @@ const Navbar = () => {
               </Link>
               <div className="relative">
                 <DropDownMenu title={"SERVICES"} menuItems={MENU_ITEMS} />
-                <div className="absolute hidden group-hover:block bg-white shadow-lg">
-                  {/* Add your dropdown items here */}
-                </div>
               </div>
               <Link
                 to={paths.aboutus}
@@ -128,12 +130,11 @@ const Navbar = () => {
           >
             HOME
           </Link>
-          <a
-            href="#"
-            className="text-gray-700 hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium"
-          >
-            SERVICES
-          </a>
+          <AccordionMenu
+            title="SERVICES"
+            menuItems={MENU_ITEMS}
+            handleLinkClick={handleLinkClick}
+          />
           <Link
             to={paths.aboutus}
             onClick={() => handleLinkClick(paths.aboutus)}

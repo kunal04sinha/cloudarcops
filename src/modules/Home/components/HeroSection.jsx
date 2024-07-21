@@ -2,7 +2,7 @@ import TechImg4 from "../../../assets/images/herops.png";
 
 const HeroSection = () => {
   return (
-    <div className="relative min-h-screen flex flex-col md:flex-row justify-center md:justify-between items-center p-4 md:p-8">
+    <div className=" min-h-screen flex flex-col md:flex-row justify-center md:justify-between items-center p-4 md:p-8  ">
       <div className="flex flex-col gap-5 text-center md:text-left md:ml-11">
         <h1 className="text-4xl md:text-[76px] font-semibold leading-tight">
           <span className="text-blue-500">DevOps</span> done right!

@@ -8,7 +8,9 @@ const MainLayout = () => {
   return (
     <>
       <Headers />
-      <Outlet />
+      <div className="pt-7">
+        <Outlet />
+      </div>
       <Lettalk />
       <Foter />
     </>

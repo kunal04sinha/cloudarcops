@@ -3,7 +3,7 @@ import React from "react";
 const TeamCard = ({ icon, title, description }) => {
   return (
     <div className="bg-metallicBlue border h-full flex-grow border-silver rounded-lg shadow-md p-6 text-left max-w-sm w-full transition-transform duration-300 transform hover:scale-105 hover:shadow-xl flex flex-col items-center">
-      <div className="relative mb-4">
+      <div className=" mb-4">
         <img
           src={icon}
           alt={`${title} icon`}

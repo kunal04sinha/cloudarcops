@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner";
 import Form from "./components/Form";
+import FormNew from "./components/FormNew";
 
 const ContactUs = () => {
   return (
@@ -10,7 +11,8 @@ const ContactUs = () => {
       />
       {/* <h1>Contact</h1> */}
       <div className="bg-white ">
-        <Form />
+        {/* <Form /> */}
+        <FormNew />
       </div>
     </>
   );

@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '0 * * * *' # This runs the action every hour
+    - cron: "0 * * * *" # This runs the action every hour
   workflow_dispatch: # This allows you to run the action manually from the Actions tab
 
 jobs:
@@ -10,21 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout the repository
+      - name: Checkout the original repository
         uses: actions/checkout@v2
         with:
-          repository: kunal04sinha/cloudarops # Update this to the original repository
-          ref: main # Update this to the default branch of the original repository
+          repository: kunal04sinha/cloudarops # Original repository
+          ref: main # Default branch of the original repository
 
       - name: Checkout the fork
         run: |
-          git remote add fork https://github.com/${{ github.repository }}
+          git remote add fork https://github.com/${{ github.repository }}.git
           git fetch fork
-          git checkout fork/main # Update this to the default branch of your fork
-          git merge --no-edit origin/main # Update this to the default branch of the original repository
+          git checkout main # Default branch of your fork
+          git merge --no-edit origin/main # Merge changes from original repository's default branch
 
       - name: Push changes
         run: |
-          git push fork main # Update this to the default branch of your fork
+          git push fork main # Push changes to the default branch of your fork
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

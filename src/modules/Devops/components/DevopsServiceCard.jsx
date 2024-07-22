@@ -15,7 +15,10 @@ const ServicesCard = ({ number, title, description, logoImage }) => {
         </div>
       </div>
 
-      <TechCard src={logoImage} className={"max-w-full md:h-[300px]"} />
+      <img
+        src={logoImage}
+        className="max-w-full md:h-[300px] shadow-2xl rounded-[10%] pt-2"
+      ></img>
     </div>
   );
 };

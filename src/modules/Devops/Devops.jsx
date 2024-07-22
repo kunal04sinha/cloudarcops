@@ -9,8 +9,7 @@ const Devops = () => {
     <div>
       {/* <DevopsBanner /> */}
       <Banner
-        mainText="Are you a startup struggling to keep pace with rapid software
-          delivery?"
+        mainText="Are you a startup struggling ?"
         secondText="Accelerate with DevOps team ensuring best infrastructure practices.​"
       />
 

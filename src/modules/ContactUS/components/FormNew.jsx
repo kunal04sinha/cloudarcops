@@ -23,12 +23,14 @@ const FormNew = () => {
       .then(
         () => {
           setLoading(false);
-          toast.success("Message sent successfully");
+          toast.success(
+            "Thank you for reaching out! Our team will get back to you shortly."
+          );
           e.target.reset();
         },
         (error) => {
           setLoading(false);
-          toast.error("FAILED...");
+          toast.error("Oops! Something went wrong. Please try again later.");
         }
       );
   };
@@ -150,7 +152,7 @@ const FormNew = () => {
           Come say hello at our office HQ.
         </div>
       </div>
-      <ToastContainer />
+      <ToastContainer position="top-center" />
     </div>
   );
 };

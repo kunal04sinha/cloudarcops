@@ -20,10 +20,26 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const [activePath, setActivePath] = useState(location.pathname);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     setActivePath(location.pathname);
   }, [location.pathname]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -35,8 +51,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-white pb-5 z-[1000]">
-      <div className="  max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+    <nav
+      className={`fixed top-0 w-full pb-5 z-[1000] transition-colors duration-300 ${
+        isScrolled ? "bg-white/50" : "bg-white"
+      }`}
+    >
+      <div className="  max-w-7xl mx-auto px-4 mt-6 sm:px-6 lg:px-8 ">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to={paths.home} className="flex-shrink-0">

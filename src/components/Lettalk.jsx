@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { paths } from "../const/path";
-const Lettalk = ({ handleLinkClick }) => {
+const Lettalk = ({ handleLinkClick, talk = "Let's Talk DevOps" }) => {
   return (
     <div className="bg-blue-500">
       <div className="grid grid-cols-1 md:grid-cols-2 px-10  gap-10 md:px-40  justify-center pt-12 pb-12">
@@ -13,7 +13,7 @@ const Lettalk = ({ handleLinkClick }) => {
           onClick={() => handleLinkClick(paths.contact)}
           className="bg-white text-white font-bold py-2 px-4 rounded flex justify-center items-center"
         >
-          <span className="text-blue-500">Let's Talk DevOps</span>
+          <span className="text-blue-500 text-lg">{talk}</span>
         </Link>
       </div>
     </div>

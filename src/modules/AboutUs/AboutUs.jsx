@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner";
+import Lettalk from "../../components/Lettalk";
 import Hero from "./components/Hero";
 import Team from "./components/Team";
 const AboutUs = () => {
@@ -10,6 +11,7 @@ const AboutUs = () => {
       />
       <Hero />
       <Team />
+      <Lettalk />
     </div>
   );
 };

@@ -11,7 +11,7 @@ const MainLayout = () => {
       <div className="pt-7">
         <Outlet />
       </div>
-      <Lettalk />
+      {/* <Lettalk /> */}
       <Foter />
     </>
   );

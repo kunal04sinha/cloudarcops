@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner";
+import Lettalk from "../../components/Lettalk";
 import Monitor from "./components/Monitor";
 import MonitorEnv from "./components/MonitorEnv";
 import NocTeam from "./components/NocTeam";
@@ -16,6 +17,7 @@ const NOC = () => {
       <NocTeam />
       <Works />
       <MonitorEnv />
+      <Lettalk talk="Schedule a Call " />
     </div>
   );
 };

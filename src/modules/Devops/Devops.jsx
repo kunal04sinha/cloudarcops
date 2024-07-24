@@ -3,6 +3,7 @@ import Banner from "../../components/Banner";
 import DevOpsServices from "./components/DevOpsServices";
 import DevOpsTeam from "./components/DevopsTeam";
 import Production from "./components/Production";
+import Lettalk from "../../components/Lettalk";
 
 const Devops = () => {
   return (
@@ -16,6 +17,7 @@ const Devops = () => {
       <DevOpsTeam />
       <DevOpsServices />
       <Production />
+      <Lettalk talk="Schedule a Call " />
     </div>
   );
 };

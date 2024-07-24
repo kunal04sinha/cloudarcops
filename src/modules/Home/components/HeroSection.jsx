@@ -9,7 +9,7 @@ const HeroSection = () => {
         </h1>
         <span className="bg-gradient-to-r from-[#0097B2] to-[#57D9D9] h-2 w-8 mx-auto md:mx-0"></span>
         <h3 className="text-lg md:text-[28.3px] font-medium">
-          Say goodbye to DevOps workload and say hello to Cloudarops DevOps
+          Streamline Your DevOps Workload with CloudArcOps DevOps Solutions
         </h3>
       </div>
       <img

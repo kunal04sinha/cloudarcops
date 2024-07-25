@@ -5,8 +5,7 @@ import instagram from "../assets/images/instagram2.svg";
 import spotify from "../assets/images/spotify.svg";
 import youtube from "../assets/images/youtube.svg";
 import devops from "../assets/images/devops.svg";
-import iso from "../assets/images/iso.png";
-import aws from "../assets/images/aws.png";
+import clutch from "../assets/images/clutch.png";
 
 const Footer = () => {
   return (
@@ -39,8 +38,7 @@ const Footer = () => {
             </div>
             <div className="flex space-x-4">
               <img src={devops} alt="GoodFirms Badge" className="w-20 h-20" />
-              <img src={iso} alt="ISO Badge" className="w-20 h-20" />
-              <img src={aws} alt="AWS Badge" className="w-20 h-20" />
+              <img src={clutch} alt="ISO Badge" className="w-20 h-20" />
             </div>
           </div>
           <div>

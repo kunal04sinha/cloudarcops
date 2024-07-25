@@ -1,7 +1,6 @@
 import React from "react";
 import CardAbout from "./CardAbout";
 import foundingMembers from "../foundingMembers.json";
-import teamleaders from "../teamleaders.json";
 
 const Team = () => {
   return (
@@ -14,22 +13,6 @@ const Team = () => {
           <h3 className="text-2xl font-bold text-left mb-4">Founding Team</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
             {foundingMembers.map((member) => (
-              <CardAbout
-                key={member.name}
-                name={member.name}
-                title={member.title}
-                location={member.location}
-                imageSrc={member.imageSrc}
-              />
-            ))}
-          </div>
-        </div>
-        <div className="mb-8 px-4">
-          <h3 className="text-2xl font-bold text-left mb-4 pt-7">
-            Team Leaders
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-            {teamleaders.map((member) => (
               <CardAbout
                 key={member.name}
                 name={member.name}

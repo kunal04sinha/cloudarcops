@@ -14,17 +14,19 @@
 }
 
 .animated-border {
-  border: calc(0.2 * var(--m)) solid transparent;
+  border: 2px solid transparent;
   position: relative;
-  color: #f3f3f3;
-  font-family: "Space Grotesk";
-  font-size: 1.7rem;
-  border-radius: 50px;
-  padding: calc(0.5 * var(--m)) calc(1 * var(--m));
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem; /* Smaller font size */
+  border-radius: 10px;
+  padding: 0.5rem 0.8rem; /* Reduced padding for narrower width */
+  height: 3rem;
+  max-width: 200px; /* Set maximum width */
+  width: 100%;
   display: flex;
   justify-content: center;
   cursor: pointer;
-
   background: linear-gradient(#121213, #121213),
     linear-gradient(#121213 50%, rgba(18, 18, 19, 0.6) 80%, rgba(18, 18, 19, 0)),
     linear-gradient(
@@ -55,7 +57,7 @@
     var(--pink),
     var(--red)
   );
-  height: 30%;
+  height: 90%;
   width: 60%;
   position: absolute;
   bottom: -20%;
@@ -81,6 +83,12 @@ button:hover::before {
 
 @media screen and (max-width: 1000px) {
   :root {
-    --m: 2rem;
+    --m: 0.5rem;
+  }
+
+  .animated-border {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    max-width: 150px;
   }
 }

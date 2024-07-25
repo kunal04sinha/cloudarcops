@@ -11,7 +11,9 @@ const HeroSection = () => {
         <h3 className="text-lg md:text-[28.3px] font-medium">
           Streamline Your DevOps Workload with CloudArcOps DevOps Solutions
         </h3>
-        <AnimatedButton>30 Days free Devops</AnimatedButton>
+        <div className="flex justify-center md:justify-start">
+          <AnimatedButton>30 Days free Devops</AnimatedButton>
+        </div>
       </div>
       <img
         className="w-full max-w-xs md:max-w-md lg:max-w-lg mt-4 md:mt-0"

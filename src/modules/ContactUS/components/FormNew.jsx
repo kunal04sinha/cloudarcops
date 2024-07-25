@@ -123,7 +123,7 @@ const FormNew = () => {
               {loading ? (
                 <ClipLoader size={9} color={"#3B82F6"} />
               ) : (
-                "Send Message"
+                "Request a Call"
               )}
             </button>
           </div>

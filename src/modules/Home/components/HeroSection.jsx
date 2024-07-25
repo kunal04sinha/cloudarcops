@@ -11,15 +11,21 @@ const HeroSection = () => {
         <h3 className="text-lg md:text-[28.3px] font-medium">
           Streamline Your DevOps Workload with CloudArcOps DevOps Solutions
         </h3>
-        <div className="flex justify-center md:justify-start">
+        <div className="flex justify-center md:justify-start pb-5 md:pb-0">
           <AnimatedButton>30 Days free Devops</AnimatedButton>
         </div>
       </div>
-      <img
+      {/* <img
         className="w-full max-w-xs md:max-w-md lg:max-w-lg mt-4 md:mt-0"
         src={TechImg4}
         alt="Cloudarops"
-      />
+      /> */}
+      <div className="w-full max-w-xs md:max-w-md lg:max-w-lg mt-4 md:mt-0">
+        <video className="w-full h-auto" autoPlay loop muted playsinline>
+          <source src="/public/Devops.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
   );
 };

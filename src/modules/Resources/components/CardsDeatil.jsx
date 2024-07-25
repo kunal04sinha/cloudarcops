@@ -1,5 +1,7 @@
 import React from "react";
 import Card from "./Card";
+import { Link } from "react-router-dom";
+import { paths } from "../../../const/path";
 import img from "../../../assets/images/MigratingfromECStoEKS-2-.avif";
 
 const cardsData = [
@@ -9,7 +11,7 @@ const cardsData = [
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto suscipit rerum error repellendus nemo obcaecati aliquam omnis, dolorum accusantium officiis ab qui ratione nesciunt natus? Officiis itaque aliquid quae accusantium?",
     buttonText: "Read More",
-    buttonUrl: "#",
+    buttonUrl: paths.blog,
   },
   {
     title: "Migration from EC2 to EKS",

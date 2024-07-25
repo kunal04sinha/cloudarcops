@@ -6,4 +6,5 @@ export const paths = {
   aboutus: "/about-us",
   resources: "/resources",
   contact: "contact",
+  blog: "/blog",
 };

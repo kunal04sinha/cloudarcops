@@ -23,7 +23,7 @@ const HeroSection = () => {
       /> */}
       <div className="w-full max-w-xs md:max-w-md lg:max-w-lg mt-4 md:mt-0">
         <video className="w-full h-auto" autoPlay loop muted playsinline>
-          <source src="/devops.mp4" type="video/mp4" />
+          <source src="/Devops.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

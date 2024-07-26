@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { paths } from "../../../const/path";
 
 const Card = ({
+  id,
   title,
   imageUrl,
   description,
@@ -16,8 +18,9 @@ const Card = ({
         <p className="text-gray-700 mb-4">{description}</p>
         <div className="text-right py-5">
           <Link
-            to={buttonUrl}
-            onClick={() => handleLinkClick(buttonUrl)}
+            to={`${paths.blog}?id=${id}`}
+            // TODO: Remove it
+            // onClick={() => handleLinkClick(buttonUrl)}
             className=" bg-blue-500 text-white py-2 px-4 rounded-full"
           >
             {buttonText}

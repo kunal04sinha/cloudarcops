@@ -11,9 +11,15 @@ const Banner = ({ mainText, secondText }) => {
       <div className="flex item-center justify-center">
         <h1 className="text-2 md:text-4xl font-bold text-white text-center">
           {mainText}{" "}
-          <p className="text-cyan-400">
-            <ReactTyped strings={[secondText]} typeSpeed={40} backSpeed={50} />
-          </p>
+          {secondText && (
+            <p className="text-cyan-400">
+              <ReactTyped
+                strings={[secondText]}
+                typeSpeed={40}
+                backSpeed={50}
+              />
+            </p>
+          )}
         </h1>
       </div>
     </div>

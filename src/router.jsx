@@ -8,7 +8,7 @@ import DevopsPage from "./pages/Services/Devops/DevopsPage";
 import NOCPage from "./pages/Services/NOC/NOCPage";
 import { paths } from "./const/path";
 import ContactUs from "./modules/ContactUS";
-import Blog from "./components/Blog";
+import Blog from "./modules/Blog/Blog";
 
 const router = createBrowserRouter([
   {

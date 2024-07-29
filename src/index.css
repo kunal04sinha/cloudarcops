@@ -27,3 +27,14 @@ button:hover,
 button:hover::before {
   animation: animate 0.5s infinite linear;
 }
+
+/* CSS to maintain space for scrollbar */
+body.menu-open nav {
+  overflow-y: scroll;
+  padding-right: 17px; /* Adjust this value if needed to match the width of your scrollbar */
+}
+
+/* Optional: Prevent horizontal scrolling when menu is open */
+body.menu-open nav {
+  overflow-x: hidden;
+}

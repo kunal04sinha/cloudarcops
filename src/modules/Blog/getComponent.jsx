@@ -17,8 +17,8 @@ export const getComponent = (content) => {
     return <Banner {...content[key]} />;
   } else if (key === "paragraph") {
     return <Paragraph>{content[key]}</Paragraph>;
-  } else if (key === "image") {
-    return <Image {...content[key]} />;
+  } else if (key === "images") {
+    return <Image images={content[key]} />;
   } else if (key === "subHeading") {
     return <SubHeading>{content[key]}</SubHeading>;
   } else if (key === "bullet") {

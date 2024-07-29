@@ -9,6 +9,14 @@ export const BlogData = [
       heading: "1. Overview",
     },
     {
+      textWithImage: {
+        src: "https://iamops.io/wp-content/uploads/2024/03/before2.png",
+        paragraph: `FitFusion is a wellness platform for fitness centers, enhancing gym experiences with personalized fitness plans, health monitoring, and a supportive community. Their unique digital wallet tracks progress and rewards user’s achievements to boost overall fitness success.
+
+                As an early-stage pre-seed startup, FitFusion operated on a local machine.`,
+      },
+    },
+    {
       paragraph: `FitFusion is a wellness platform for fitness centers, enhancing gym experiences with personalized fitness plans, health monitoring, and a supportive community. Their unique digital wallet tracks progress and rewards user’s achievements to boost overall fitness success.
 
                 As an early-stage pre-seed startup, FitFusion operated on a local machine.
@@ -26,12 +34,6 @@ export const BlogData = [
           alt: "devops",
         },
       ],
-    },
-    {
-      image: {
-        src: "https://iamops.io/wp-content/uploads/2024/03/before2.png",
-        alt: "devops",
-      },
     },
 
     {
@@ -60,14 +62,6 @@ export const BlogData = [
         "Streamlined CI/CD Workflows: Automate code processes for reliable CI/CD workflows, ensuring smooth integration, testing, and deployment.",
         "Containerized Application Management: Use Kubernetes, Helm charts, and Amazon EKS to manage application effectively in the Staging Environment, ensuring adaptability and efficiency.",
       ],
-    },
-    {
-      textWithImage: {
-        src: "https://iamops.io/wp-content/uploads/2024/03/before2.png",
-        paragraph: `FitFusion is a wellness platform for fitness centers, enhancing gym experiences with personalized fitness plans, health monitoring, and a supportive community. Their unique digital wallet tracks progress and rewards user’s achievements to boost overall fitness success.
-
-                As an early-stage pre-seed startup, FitFusion operated on a local machine.`,
-      },
     },
   ],
 ];

@@ -1,8 +1,13 @@
 import React from "react";
 import useBlog from "./useBlog";
+import BlogNotFound from "./components/BlogNotFound";
 
 const Blog = () => {
-  const { blogContent } = useBlog();
+  const { blogContent, isValidBlog } = useBlog();
+
+  if (!isValidBlog) {
+    return <BlogNotFound />;
+  }
 
   return (
     <div>

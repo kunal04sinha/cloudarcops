@@ -9,24 +9,31 @@ export const BlogData = [
       heading: "1. Overview",
     },
     {
-      image: {
-        src: "https://iamops.io/wp-content/uploads/2024/03/before2.png",
-        alt: "devops",
-      },
-    },
-    {
-      image: {
-        src: "https://iamops.io/wp-content/uploads/2024/03/before2.png",
-        alt: "devops",
-      },
-    },
-    {
       paragraph: `FitFusion is a wellness platform for fitness centers, enhancing gym experiences with personalized fitness plans, health monitoring, and a supportive community. Their unique digital wallet tracks progress and rewards user’s achievements to boost overall fitness success.
 
                 As an early-stage pre-seed startup, FitFusion operated on a local machine.
 
                They needed to make its application accessible to external users, design partners, and potential investors.`,
     },
+    {
+      images: [
+        {
+          src: "https://iamops.io/wp-content/uploads/2024/03/before2.png",
+          alt: "devops",
+        },
+        {
+          src: "https://iamops.io/wp-content/uploads/2024/03/before2.png",
+          alt: "devops",
+        },
+      ],
+    },
+    {
+      image: {
+        src: "https://iamops.io/wp-content/uploads/2024/03/before2.png",
+        alt: "devops",
+      },
+    },
+
     {
       subHeading: "Goal",
     },

@@ -9,6 +9,7 @@ import NOCPage from "./pages/Services/NOC/NOCPage";
 import { paths } from "./const/path";
 import ContactUs from "./modules/ContactUS";
 import Blog from "./modules/Blog/Blog";
+import BlogContentComponent from "./modules/Blog/components/BlogContentComponent";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
       { path: paths.resources, element: <ResourcesPage /> },
       { path: paths.contact, element: <ContactUs /> },
       { path: paths.blog, element: <Blog /> },
+      // { path: paths.blog, element: <BlogContentComponent /> },
     ],
   },
 ]);

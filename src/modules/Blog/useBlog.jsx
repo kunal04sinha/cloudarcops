@@ -9,12 +9,17 @@ const useBlog = () => {
   let blogContent = <BlogNotFound />;
   if (blogId >= 0 && blogId < BlogData.length) {
     const blog = BlogData[blogId];
-    blogContent = blog.map((content) => {
-      return getComponent(content);
+    blogContent = blog.map((content, index) => {
+      const key = Object.keys(content)[0];
+      return {
+        type: key,
+        component: getComponent(content),
+      };
     });
   }
   return {
     blogContent,
   };
 };
+
 export default useBlog;

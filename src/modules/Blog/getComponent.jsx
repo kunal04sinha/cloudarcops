@@ -1,5 +1,6 @@
-import Banner from "../../components/Banner";
+import React from "react";
 import Heading from "./components/Heading";
+import Banner from "../../components/Banner";
 import Image from "./components/Image";
 import OrderList from "./components/OrderList";
 import Paragraph from "./components/Paragraph";
@@ -14,10 +15,10 @@ export const getComponent = (content) => {
     return <Heading>{content[key]}</Heading>;
   } else if (key === "banner") {
     return <Banner {...content[key]} />;
-  } else if (key === "image") {
-    return <Image {...content[key]} />;
   } else if (key === "paragraph") {
     return <Paragraph>{content[key]}</Paragraph>;
+  } else if (key === "image") {
+    return <Image {...content[key]} />;
   } else if (key === "subHeading") {
     return <SubHeading>{content[key]}</SubHeading>;
   } else if (key === "bullet") {

@@ -5,7 +5,7 @@ import MonitorEnv from "./components/MonitorEnv";
 import NocTeam from "./components/NocTeam";
 import Works from "./components/Works";
 
-const NOC = () => {
+const SRE = () => {
   return (
     <div>
       <Banner
@@ -22,4 +22,4 @@ const NOC = () => {
   );
 };
 
-export default NOC;
+export default SRE;

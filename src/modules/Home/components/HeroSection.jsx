@@ -13,7 +13,7 @@ const HeroSection = () => {
           Streamline Your DevOps Workload with CloudArcOps DevOps Solutions
         </h3>
         <div className="flex justify-center md:justify-start pb-5 md:pb-0">
-          <AnimatedButton>30 Days free Devops</AnimatedButton>
+          <AnimatedButton>Try 30 days free devops</AnimatedButton>
         </div>
       </div>
       <div className="w-full max-w-xs md:max-w-md lg:max-w-lg">

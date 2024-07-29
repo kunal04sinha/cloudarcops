@@ -5,11 +5,12 @@ import HomePage from "./pages/Home/HomePage";
 import AboutUsPage from "./pages/AboutUs/AboutUsPage";
 import ResourcesPage from "./pages/Resources/ResourcesPage";
 import DevopsPage from "./pages/Services/Devops/DevopsPage";
-import NOCPage from "./pages/Services/NOC/NOCPage";
+
 import { paths } from "./const/path";
 import ContactUs from "./modules/ContactUS";
 import Blog from "./modules/Blog/Blog";
 import BlogContentComponent from "./modules/Blog/components/BlogContentComponent";
+import SREPage from "./pages/Services/SRE/SREPage";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,8 @@ const router = createBrowserRouter([
         path: paths.services,
         children: [
           { path: paths.devops, element: <DevopsPage /> },
-          { path: paths.noc, element: <NOCPage /> },
+
+          { path: paths.sre, element: <SREPage /> },
         ],
       },
       { path: paths.aboutus, element: <AboutUsPage /> },

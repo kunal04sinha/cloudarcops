@@ -11,8 +11,8 @@ const MENU_ITEMS = [
     path: `${paths.services}/${paths.devops}`,
   },
   {
-    title: "NOC 24/7",
-    path: `${paths.services}/${paths.noc}`,
+    title: "SRE 24/7",
+    path: `${paths.services}/${paths.sre}`,
   },
 ];
 

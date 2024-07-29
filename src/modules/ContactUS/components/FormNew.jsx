@@ -89,6 +89,16 @@ const FormNew = () => {
             />
           </div>
           <div className="mb-4">
+            <label className="block text-gray-700">Company Name</label>
+            <input
+              type="text"
+              name="companyName"
+              className="mt-2 p-2 border border-gray-300 rounded w-full"
+              placeholder="example:CloudArcOps"
+              disabled={loading}
+            />
+          </div>
+          <div className="mb-4">
             <label className="block text-gray-700">Message</label>
             <textarea
               name="message"

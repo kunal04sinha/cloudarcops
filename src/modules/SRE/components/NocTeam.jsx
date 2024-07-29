@@ -4,7 +4,7 @@ const NocTeam = () => {
   return (
     <div className="flex flex-col items-center py-16 sm:py-28">
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">
-        Your NOC Team
+        Your SRE Team
       </h2>
       <div className="mt-10 grid gap-6 sm:grid-cols-2 max-w-4xl w-full px-6 sm:px-0">
         <div className="flex flex-col sm:flex-row items-center p-6 border rounded-2xl shadow-2xl bg-white">
@@ -15,7 +15,7 @@ const NocTeam = () => {
           </div>
           <div className="flex flex-col sm:px-5">
             <h3 className="text-xl sm:text-2xl font-bold text-black">
-              NOC Manager
+              SRE Manager
             </h3>
             <p className="text-black text-sm sm:text-base">
               Responsible for the design, set-up and continuous improvement of
@@ -33,7 +33,7 @@ const NocTeam = () => {
           </div>
           <div className="flex flex-col sm:px-5">
             <h3 className="text-xl sm:text-2xl font-bold text-black">
-              NOC Engineer
+              SRE Engineer
             </h3>
             <p className="text-black text-sm sm:text-base">
               With several monitors and dashboards on our NOC Room Screens, the

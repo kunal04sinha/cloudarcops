@@ -1,7 +1,7 @@
 export const paths = {
   home: "/",
   devops: "devops",
-  noc: "noc",
+  sre: "sre",
   services: "/services",
   aboutus: "/about-us",
   resources: "/resources",

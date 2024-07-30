@@ -2,16 +2,7 @@ import React from "react";
 
 const Image = ({
   // eslint-disable-next-line react/prop-types
-  images = [
-    {
-      src: "https://iamops.io/wp-content/uploads/2024/03/before2.png",
-      alt: "devops",
-    },
-    {
-      src: "https://iamops.io/wp-content/uploads/2024/03/before2.png",
-      alt: "devops",
-    },
-  ],
+  images,
 }) => {
   console.log(images);
 

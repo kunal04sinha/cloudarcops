@@ -1,6 +1,6 @@
 import TechImg4 from "../../../assets/images/herops.png";
 import AnimatedButton from "../../../components/AnimatedBUtton";
-
+import pic from "../../../assets/images/landingPage.png";
 const HeroSection = () => {
   return (
     <div className="min-h-screen flex flex-col md:flex-row justify-center items-center p-4 md:p-8 gap-8 md:gap-16">
@@ -16,7 +16,12 @@ const HeroSection = () => {
           <AnimatedButton>30 Days free Devops</AnimatedButton>
         </div>
       </div>
-      <div className="w-full max-w-xs md:max-w-md lg:max-w-lg">
+      <img
+        src={pic}
+        alt=""
+        className="w-full max-w-xs md:max-w-md lg:max-w-lg"
+      />
+      {/* <div className="w-full max-w-xs md:max-w-md lg:max-w-lg">
         <video
           className="w-full h-auto max-h-screen"
           autoPlay
@@ -27,7 +32,7 @@ const HeroSection = () => {
           <source src="/Devops.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
     </div>
   );
 };

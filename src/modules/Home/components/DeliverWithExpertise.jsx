@@ -27,21 +27,21 @@ const DeliverWithExpertise = () => {
         <div className="flex justify-center items-center ">
           <div className="grid grid-cols-2 gap-6 lg:w-1/2">
             <div className="text-center">
-              <Count end="40" />
+              <Count end="5" />
               {/* <p className="text-5xl font-bold">40+</p> */}
               <p className="text-gray-600">DevOps Engineers</p>
             </div>
             <div className="text-center">
-              <Count end="100" />
-              <p className="text-gray-600">AWS Projects</p>
+              <Count end="25" />
+              <p className="text-gray-600">Projects</p>
             </div>
 
             <div className="text-center">
-              <Count end="25" />
+              <Count end="6" />
               <p className="text-gray-600">Clients</p>
             </div>
             <div className="text-center">
-              <Count end="6" />
+              <Count end="3" />
               <p className="text-gray-600">Countries</p>
             </div>
           </div>

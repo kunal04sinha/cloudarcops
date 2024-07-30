@@ -13,7 +13,7 @@ const Image = ({
     },
   ],
 }) => {
-  console.log(images); // This should be placed outside of the JSX return
+  console.log(images);
 
   return (
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">

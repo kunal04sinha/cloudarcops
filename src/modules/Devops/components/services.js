@@ -34,4 +34,11 @@ export const services = [
       "Our DevOps team work with different tools for easy collaboration and documentation.",
     logoImage: "https://iamops.io/wp-content/uploads/2022/04/8.png",
   },
+  {
+    number: 6,
+    title: "Security",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit sdam sequi omnis, error similique",
+    logoImage: "https://iamops.io/wp-content/uploads/2022/04/8.png",
+  },
 ];

@@ -1,6 +1,5 @@
 import React from "react";
 
-<<<<<<< HEAD
 const Image = ({
   // eslint-disable-next-line react/prop-types
   images = [
@@ -15,10 +14,6 @@ const Image = ({
   ],
 }) => {
   console.log(images);
-=======
-const Image = ({ images }) => {
-  console.log(images); // This should be placed outside of the JSX return
->>>>>>> c1ce5bd929e48d04e79a234d5a5d4ba328b01e6f
 
   return (
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">

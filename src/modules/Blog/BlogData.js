@@ -65,7 +65,7 @@ export const BlogData = [
       ],
     },
     {
-      subHeading: "Key Features and Benefits",
+      heading: "Key Features and Benefits",
     },
     {
       subHeading: "1. Unified Monitoring Solution",
@@ -100,7 +100,7 @@ export const BlogData = [
       ],
     },
     {
-      subHeading: "Implementation Highlights",
+      heading: "Implementation Highlights",
     },
     {
       subHeading: "1. Setup of Grafana",

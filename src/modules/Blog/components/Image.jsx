@@ -15,7 +15,7 @@ const Image = ({
           key={index}
           src={image.src}
           alt={image.alt}
-          className="w-full h-auto mb-4"
+          className="w-[550px] h-auto mb-4"
         />
       ))}
     </div>

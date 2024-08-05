@@ -1,4 +1,4 @@
-import cloud from "../../../assets/images/developer.svg";
+import cloud from "../../../assets/images/cloud.png";
 
 const PassionateDevops = () => {
   return (

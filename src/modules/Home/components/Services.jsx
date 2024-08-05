@@ -47,7 +47,7 @@ const Services = () => {
                   <path d="M3 3a1 1 0 000 2h14a1 1 0 100-2H3zm2 4a1 1 0 000 2h10a1 1 0 100-2H5zm-2 4a1 1 0 000 2h14a1 1 0 100-2H3zm2 4a1 1 0 000 2h10a1 1 0 100-2H5z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-black mb-2">NOC 24/7</h3>
+              <h3 className="text-2xl font-bold text-black mb-2">SRE 24/7</h3>
               <p className="text-black">
                 24/7 infrastructure monitoring to mitigate downtime risks
               </p>

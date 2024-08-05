@@ -1,14 +1,16 @@
 [
   {
-    "name": "Dhruv Patel",
-    "title": "CEO, FOUNDER",
-    "location": "Surat,Gujarat",
-    "imageSrc": "/Teams/dhruv.jpeg"
+    "para1": "At CloudArcOps, we empower businesses with innovative DevOps and cloud-computing solutions. Our focus is on delivering cost optimization, robust security, and infrastructure stability to ensure your success.",
+    "para2": "We take great pride in the remarkable results we've achieved for our customers. Our commitment to customer satisfaction is unwavering, and we continually strive to exceed expectations by delivering solutions that not only meet but surpass your needs. Through our comprehensive DevOps services, we have helped numerous organizations streamline their operations, enhance their security posture, and optimize costs, ensuring they can focus on what they do best.",
+    "para3": "Thank you for choosing us as your trusted partner in your digital transformation journey. Together, we can build a resilient and future-ready infrastructure that drives your business forward.",
+    "founder": " Co-founder",
+    "name": "Dhruv Patel"
   },
   {
-    "name": "Satvik",
-    "title": "CEO, CO-FOUNDER",
-    "location": "Surat,Gujarat",
-    "imageSrc": "/Teams/satvik.PNG"
+    "para1": "At CloudArcOps, our vision is to redefine the DevOps and cloud-computing experience by focusing on what truly matters: cost optimization, security, and stability. We believe that every organization deserves a robust and efficient workflow that not only meets but exceeds their expectations. As your co-founder, my commitment is to ensure that our services provide tangible value, driving both innovation and efficiency.",
+    "para2": "Our team of experts is passionate about automation and its power to transform development and deployment processes. By leveraging cutting-edge technologies, we help streamline operations, reduce costs, and enhance security, all while maintaining a high level of stability and performance. We are not just service providers; we are your partners in achieving seamless integration and operational excellence.",
+    "para3": "Thank you for placing your trust in CloudArcOps. We look forward to collaborating with you to build a resilient, secure, and cost-effective infrastructure that supports your business's growth and success.",
+    "founder": " Co-founder",
+    "name": "Satvik Gajera"
   }
 ]

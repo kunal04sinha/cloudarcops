@@ -8,7 +8,8 @@ export const BlogData = [
     {
       banner: {
         mainText:
-          "Comprehensive Kubernetes Monitoring with Self-Hosted Grafana: A Case Study",
+          "Comprehensive Kubernetes Monitoring with Self-Hosted Grafana.",
+        secondText: "A Case Study",
       },
     },
     {
@@ -184,7 +185,8 @@ solutions!`,
     {
       banner: {
         mainText:
-          "Cost-Efficiency and Automation with Serverless Architecture for Enterprise Customers",
+          "Cost-Efficiency and Automation with Serverless Architecture ",
+        secondText: "For Enterprise Customers",
       },
     },
     {
@@ -327,8 +329,9 @@ similar benefits.
   [
     {
       banner: {
-        mainText:
-          "Revolutionizing Web Applications: A Dive into My Three-Tier Architecture with AWS CloudFront",
+        mainText: "Revolutionizing Web Applications ",
+        secondText:
+          "A Dive into My Three-Tier Architecture with AWS CloudFront",
       },
     },
     {
@@ -478,7 +481,8 @@ is also poised for future growth and scalability.`,
     {
       banner: {
         mainText:
-          "Enhancing Fintech Infrastructure with AWS EKS and Karpenter: A Journey to Scalability and Reliability",
+          "Enhancing Fintech Infrastructure with AWS EKS and Karpenter.",
+        secondText: " A Journey to Scalability and Reliability",
       },
     },
     {

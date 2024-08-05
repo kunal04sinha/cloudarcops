@@ -6,8 +6,9 @@ import spotify from "../assets/images/spotify.svg";
 import youtube from "../assets/images/youtube.svg";
 import devops from "../assets/images/devops.svg";
 import clutch from "../assets/images/clutch.png";
-
-const Footer = () => {
+import { Link } from "react-router-dom";
+import { paths } from "../const/path";
+const Footer = ({ handleLinkClick }) => {
   return (
     <footer id="contact-footer" className="bg-[#ECECEC] text-black py-10">
       <div className="container mx-auto px-4 md:px-10 lg:px-20">
@@ -57,14 +58,22 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-black hover:underline">
-                  About us
-                </a>
+                <Link
+                  to={paths.aboutus}
+                  onClick={() => handleLinkClick(paths.aboutus)}
+                  className="text-black hover:underline"
+                >
+                  About Us
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-black hover:underline">
+                <Link
+                  to={paths.resources}
+                  onClick={() => handleLinkClick(paths.resources)}
+                  className="text-black hover:underline"
+                >
                   Resources
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -74,8 +83,10 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <p className="text-black flex items-center">
-                  <span className="mr-2">📍</span> Surat, Gujarat
+                <p className="text-black flex ">
+                  <span className="mr-2">📍</span> 328, Laxmi Enclave 1, near
+                  Gajera Road, Aamba Talavadi, Chitrakut Society, Katargam,
+                  Surat, Gujarat 395004
                 </p>
               </li>
             </ul>
@@ -86,8 +97,8 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li className="text-black">
-                <p>+91 9999999999</p>
-                <p>+91 9999999999</p>
+                <p>+91 8153804742</p>
+                <p>+91 7575856885</p>
               </li>
             </ul>
           </div>

@@ -1,13 +1,14 @@
 import React from "react";
 
-const CardAbout = ({ name, title, location, imageSrc }) => {
+const CardAbout = ({ name, para1, para2, para3, founder }) => {
   return (
-    <div className="bg-white w-56 shadow-2xl mt-6 rounded-lg overflow-hidden">
-      <img className="w-full h-56 object-cover" src={imageSrc} alt={name} />
+    <div className="bg-white w-full shadow-2xl mt-6 rounded-lg overflow-hidden">
       <div className="p-4">
-        <h3 className="text-xl font-bold">{name}</h3>
-        <p className="text-orange-500 font-semibold">{title}</p>
-        <p className="text-gray-600">{location}</p>
+        <p className="text-gray-700 font-semibold mb-5">{para1}</p>
+        <p className="text-gray-700 font-semibold mb-5">{para2}</p>
+        <p className="text-gray-700 font-semibold mb-4">{para3}</p>
+        <h3 className="text-lg text-right ">{founder}</h3>
+        <p className="text-blue-600 font-bold text-right">{name}</p>
       </div>
     </div>
   );

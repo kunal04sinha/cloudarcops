@@ -7,60 +7,46 @@ import img from "../../../assets/images/MigratingfromECStoEKS-2-.avif";
 const cardsData = [
   {
     id: 1,
-    title: "Migration from EC2 to EKS",
+    title:
+      "Comprehensive Kubernetes Monitoring with Self-Hosted Grafana: A Case Study",
     imageUrl: img,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto suscipit rerum error repellendus nemo obcaecati aliquam omnis, dolorum accusantium officiis ab qui ratione nesciunt natus? Officiis itaque aliquid quae accusantium?",
+      "In the world of enterprise IT, effective monitoring of infrastructure is a critical task. Ensuring that Kubernetes clusters and their components are operating efficiently can be a challenge,especially at scale. In this blog .....",
     buttonText: "Read More",
     buttonUrl: "#",
   },
   {
     id: 2,
-    title: "Migration from EC2 to EKS",
+    title:
+      "Cost-Efficiency and Automation with Serverless Architecture for Enterprise Customers",
     imageUrl: img,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto suscipit rerum error repellendus nemo obcaecati aliquam omnis, dolorum accusantium officiis ab qui ratione nesciunt natus? Officiis itaque aliquid quae accusantium?",
+      "In the ever-evolving landscape of cloud computing, achieving cost-efficiency and seamless automation is paramount for enterprise customers. Recently, I successfully implemented a serverless architecture using AWS services such ......",
     buttonText: "Read More",
     buttonUrl: "#",
   },
   {
     id: 3,
-    title: "Migration from EC2 to EKS",
+    title:
+      "Revolutionizing Web Applications: A Dive into My Three-Tier Architecture with AWS CloudFront",
     imageUrl: img,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto suscipit rerum error repellendus nemo obcaecati aliquam omnis, dolorum accusantium officiis ab qui ratione nesciunt natus? Officiis itaque aliquid quae accusantium?",
+      "In the evolving landscape of web development, the need for robust, scalable, and efficient architectures has never been more critical. As a seasoned DevOps engineer, I recently embarked on a journey to develop a sophisticated.....",
     buttonText: "Read More",
     buttonUrl: "#",
   },
   {
     id: 4,
-    title: "Migration from EC2 to EKS",
+    title:
+      "Enhancing Fintech Infrastructure with AWS EKS and Karpenter: A Journey to Scalability and Reliability",
     imageUrl: img,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto suscipit rerum error repellendus nemo obcaecati aliquam omnis, dolorum accusantium officiis ab qui ratione nesciunt natus? Officiis itaque aliquid quae accusantium?",
+      "In today's rapidly evolving fintech landscape, ensuring that your application infrastructure is both scalable and reliable is paramount. For [Fintech Company], this meant rethinking and optimizing their existing setup .......",
     buttonText: "Read More",
     buttonUrl: "#",
   },
   {
     id: 5,
-    title: "Migration from EC2 to EKS",
-    imageUrl: img,
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto suscipit rerum error repellendus nemo obcaecati aliquam omnis, dolorum accusantium officiis ab qui ratione nesciunt natus? Officiis itaque aliquid quae accusantium?",
-    buttonText: "Read More",
-    buttonUrl: "#",
-  },
-  {
-    id: 6,
-    title: "Migration from EC2 to EKS",
-    imageUrl: img,
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto suscipit rerum error repellendus nemo obcaecati aliquam omnis, dolorum accusantium officiis ab qui ratione nesciunt natus? Officiis itaque aliquid quae accusantium?",
-    buttonText: "Read More",
-    buttonUrl: "#",
-  },
-  {
-    id: 7,
     title: "Migration from EC2 to EKS",
     imageUrl: img,
     description:

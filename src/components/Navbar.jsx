@@ -53,11 +53,11 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 w-full pb-5 z-[1000] transition-colors duration-300 ${
-        isScrolled ? "bg-white/95" : "bg-gray-100"
+        isScrolled ? "bg-white/95" : "bg-white"
       }`}
     >
-      <div className="  max-w-7xl mx-auto px-4 mt-6 sm:px-6 lg:px-8 ">
-        <div className="flex items-center justify-between h-16">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-24">
+        <div className="flex items-center justify-between mt-4">
           <div className="flex items-center">
             <Link to={paths.home} className="flex-shrink-0">
               <Logo />

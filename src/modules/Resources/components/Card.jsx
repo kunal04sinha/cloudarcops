@@ -13,15 +13,19 @@ const Card = ({
 }) => {
   return (
     <div className="bg-white shadow-2xl rounded-xl overflow-hidden">
-      <img className="w-full h-48 object-fit" src={imageUrl} alt={title} />
-      <div className="p-6 ">
+      <div className="w-full h-48 relative">
+        <img
+          className="absolute inset-0 w-full h-full object-cover"
+          src={imageUrl}
+          alt={title}
+        />
+      </div>
+      <div className="p-6">
         <p className="text-gray-700 mb-4">{description}</p>
         <div className="text-right py-5">
           <Link
             to={`${paths.blog}?id=${id}`}
-            // TODO: Remove it
-            // onClick={() => handleLinkClick(buttonUrl)}
-            className=" bg-blue-500 text-white py-2 px-4 rounded-full"
+            className="bg-blue-500 text-white py-2 px-4 rounded-full"
           >
             {buttonText}
           </Link>

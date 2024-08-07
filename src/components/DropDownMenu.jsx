@@ -11,14 +11,12 @@ const DropDownMenu = ({ title, menuItems }) => {
       document.body.classList.remove("menu-open");
     }
   };
-
+  useEffect(() => {
+    handleMenuToggle(open);
+  }, [open]);
   return (
     <Menu>
       {({ open, close }) => {
-        useEffect(() => {
-          handleMenuToggle(open);
-        }, [open]);
-
         return (
           <>
             <MenuButton

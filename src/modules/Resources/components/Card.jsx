@@ -12,10 +12,10 @@ const Card = ({
   handleLinkClick,
 }) => {
   return (
-    <div className="bg-white shadow-2xl rounded-xl overflow-hidden">
+    <div className="bg-white shadow-2xl rounded-xl overflow-hidden ">
       <div className="w-full h-48 relative">
         <img
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover  "
           src={imageUrl}
           alt={title}
         />

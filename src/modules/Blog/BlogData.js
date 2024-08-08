@@ -797,7 +797,7 @@ helped keep operational costs low.
     },
     {
       bullet: [
-        `○	The platform's auto-scaling feature, coupled with load balancers, ensures that we can handle traffic spikes seamlessly. The load balancers distribute incoming traffic across healthy instances, enhancing both performance and availability.`,
+        `The platform's auto-scaling feature, coupled with load balancers, ensures that we can handle traffic spikes seamlessly. The load balancers distribute incoming traffic across healthy instances, enhancing both performance and availability.`,
       ],
     },
     {

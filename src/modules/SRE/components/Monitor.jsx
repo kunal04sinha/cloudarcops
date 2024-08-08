@@ -20,9 +20,9 @@ const Monitor = () => {
                 Monitoring System Design
               </h3>
               <p className="text-gray-700">
-                The experienced solutions architect gathers the requirements and
-                assembles the best monitoring technologies to design a
-                comprehensive monitoring solution.
+                To create a complete monitoring solution, the skilled solutions
+                architect compiles the necessary specifications and brings
+                together the top monitoring technologies.
               </p>
             </div>
           </li>
@@ -33,8 +33,8 @@ const Monitor = () => {
                 Monitoring System Set-Up
               </h3>
               <p className="text-gray-700">
-                Our monitoring team sets up the initial monitoring environment,
-                configuring any required applications and tools.
+                Our monitoring team configures any necessary tools and programs
+                and sets up the initial monitoring environment.
               </p>
             </div>
           </li>
@@ -43,8 +43,8 @@ const Monitor = () => {
             <div>
               <h3 className="text-xl font-semibold">24/7 Monitoring</h3>
               <p className="text-gray-700">
-                The NOC Team monitors the infrastructure 24/7 with 3 engineers
-                in 8-hour shifts.
+                Three engineers work eight-hour shifts as part of the SRE Team
+                to continuously monitor the infrastructure.
               </p>
             </div>
           </li>
@@ -53,10 +53,10 @@ const Monitor = () => {
             <div>
               <h3 className="text-xl font-semibold">Incident Management</h3>
               <p className="text-gray-700">
-                In case of an alert, the monitoring team provides Tier 1 support
-                and executes the relevant procedures. Additionally, the team
-                builds and establishes incident management policies for future
-                alerts.
+                The monitoring team initiates the necessary procedures and
+                offers Tier 1 support in the event of an alarm. The group also
+                creates and implements incident management procedures for
+                upcoming notifications.
               </p>
             </div>
           </li>
@@ -65,10 +65,10 @@ const Monitor = () => {
             <div>
               <h3 className="text-xl font-semibold">Risk Mitigation</h3>
               <p className="text-gray-700">
-                After an incident, we create reports and documentation for
-                better incident management, prevention, and prediction. In
-                addition, our reports contain suggestions for future
-                infrastructure improvements.
+                In order to improve incident management, prevention, and
+                prediction, we produce reports and documentation following an
+                incident. Furthermore, our evaluations provide recommendations
+                for upcoming infrastructure upgrades.
               </p>
             </div>
           </li>

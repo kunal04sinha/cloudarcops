@@ -1,44 +1,47 @@
+import one from "../../../assets/images/2.png";
+import two from "../../../assets/images/3.png";
+import three from "../../../assets/images/4.png";
+import four from "../../../assets/images/5.png";
+import five from "../../../assets/images/8.png";
+
 export const services = [
   {
     number: 1,
     title: "Cloud Management",
-    description:
-      "We are responsible for the cloud infrastructure, so it is always 'Production grade' and meets the industry's best practices.",
-    logoImage: "https://iamops.io/wp-content/uploads/2022/04/2.png",
+    description: `The cloud infrastructure is always "Production grade" and complies with industry best practices because we are in charge of it.
+`,
+    logoImage: one,
   },
   {
     number: 2,
     title: "CI/CD & Automation",
-    description:
-      "We integrate best-in-class CI/CD tools to build automations between development, QA, and production.",
-    logoImage: "https://iamops.io/wp-content/uploads/2022/04/3.png",
+    description: `In order to create automations between development, QA, and production, we integrate the greatest CI/CD solutions available.`,
+    logoImage: two,
   },
   {
     number: 3,
     title: "Monitoring",
     description:
-      "We monitor the infrastructure 24/7 to mitigate the risk of downtime and minimize its vulnerability.",
-    logoImage: "https://iamops.io/wp-content/uploads/2022/04/4.png",
+      "To reduce the possibility of downtime and decrease its susceptibility, we continuously monitor the infrastructure.",
+    logoImage: three,
   },
   {
     number: 4,
     title: "Cost Optimization",
-    description:
-      "We keep in mind the budget constraints to minimize cloud costs. We continuously review the available pricing options and choose the right one for the company.",
-    logoImage: "https://iamops.io/wp-content/uploads/2022/04/5.png",
+    description: `To reduce cloud expenses, we take financial limits into consideration. We keep an eye on the many price options and select the best one for the business.`,
+    logoImage: four,
   },
   {
     number: 5,
     title: "Documentation",
-    description:
-      "Our DevOps team work with different tools for easy collaboration and documentation.",
-    logoImage: "https://iamops.io/wp-content/uploads/2022/04/8.png",
+    description: `Several tools are used by our DevOps team to facilitate simple documentation and collaboration.`,
+    logoImage: five,
   },
   {
     number: 6,
     title: "Security",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit sdam sequi omnis, error similique",
-    logoImage: "https://iamops.io/wp-content/uploads/2022/04/8.png",
+    logoImage: five,
   },
 ];

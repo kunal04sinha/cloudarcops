@@ -11,16 +11,13 @@ const DeliverWithExpertise = () => {
               We deliver with <span className="text-blue-500">expertise</span>
             </h2>
             <p className="text-lg mb-4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
-              suscipit unde temporibus at quaerat quod tempore deserunt,
-              doloribus, qui neque illum eaque nam ex perspiciatis inventore
-              nisi iusto, ullam blanditiis!
+              With a track record of over 25 successful projects across 6
+              clients, we bring proven expertise to every engagement
             </p>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-              debitis necessitatibus, ratione ut minus quod quae perspiciatis
-              rerum distinctio saepe repellat repellendus alias, beatae nam
-              velit illum odit expedita totam.
+              Our team of DevOps Engineers follows the “CloudArcOps WAY,”
+              ensuring we understand our clients' perspectives and deliver with
+              efficiency and stability.
             </p>
           </div>
         </div>

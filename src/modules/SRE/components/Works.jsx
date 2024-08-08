@@ -13,9 +13,10 @@ const Works = () => {
               <span className="text-lg text-blue-500 ml-2">24/7</span>
             </h3>
             <p className="text-gray-700">
-              With 8-hour shifts and 3-member teams, there isn't a moment in the
-              day your infrastructure isn't fully monitored. This way, we
-              respond promptly and manage any potential incidents.
+              There is never a time during the day when your infrastructure
+              isn't fully monitored thanks to 3-person teams and 8-hour shifts.
+              In this manner, we handle any possible situations and react
+              quickly.
             </p>
           </div>
         </div>
@@ -27,9 +28,9 @@ const Works = () => {
               <span className="text-lg text-blue-500 ml-2">🌥</span>
             </h3>
             <p className="text-gray-700">
-              To make your monitoring environment as accessible, automated, and
-              updated as possible, we use dynamic dashboards to measure your
-              uptime, security, backups, and performance across channels.
+              We employ dynamic dashboards to analyze your uptime, security,
+              backups, and performance across channels in order to make your
+              monitoring environment as easily accessible, updated as feasible.
             </p>
           </div>
         </div>

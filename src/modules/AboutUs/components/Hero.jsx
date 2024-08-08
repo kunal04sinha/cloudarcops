@@ -8,19 +8,19 @@ const Hero = () => {
           “
         </div> */}
         <p className="text-black text-center z-10 text-2xl font-light tracking-wider  md:text-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nobis
-          ipsam corrupti dicta alias hic, rem iusto voluptatum facere aliquam
-          eos impedit consectetur iure, esse deserunt consequatur enim
-          necessitatibus provident?
+          We are two entrepreneurs who began our journey as Professional Service
+          providers in the tech market. Through observing our clients, we
+          recognized the critical importance of assembling the right team to
+          successfully execute work plans.
         </p>
       </div>
       <p className="text-black text-center md:text-left text-2xl mb-4 font-light tracking-wider">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facere est
-        ea veritatis quis modi iste? Sequi, fugiat.
+        However, many executives struggle to build such teams, which can put
+        their companies at risk of failure.
       </p>
       <p className="font-bold text-lg md:text-left text-center text-black ">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quos
-        error sunt veniam tenetur.
+        We aim to create and oversee DevOps teams with efficiency so you may
+        concentrate on innovation and expansion.
       </p>
     </div>
   );

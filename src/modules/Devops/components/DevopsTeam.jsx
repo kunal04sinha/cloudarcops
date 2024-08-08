@@ -1,6 +1,8 @@
 import React from "react";
 import TeamCard from "./TeamCard";
-
+import one from "../../../assets/images/head-of-devops-1.png";
+import two from "../../../assets/images/Untitled-design-22.png";
+import three from "../../../assets/images/MicrosoftTeams-image-4-1024x1024.png";
 const DevOpsTeam = () => {
   return (
     <div className="py-12 px-4 md:py-24 bg-gray-100">
@@ -9,19 +11,19 @@ const DevOpsTeam = () => {
       </h2>
       <div className="flex flex-wrap justify-center gap-7">
         <TeamCard
-          // icon="https://iamops.io/wp-content/uploads/2022/05/DevOps-5-1024x717.png"
+          icon={one}
           title="Head Of DevOps"
-          description="Responsible for ensuring the ideation and implementation of the best infrastructure and tech stack."
+          description="Accountable for making sure the greatest tech stack and infrastructure are developed and put into place."
         />
         <TeamCard
-          icon="https://iamops.io/wp-content/uploads/2022/05/Untitled-design-22.png"
+          icon={two}
           title="Automation DevOps"
-          description="Accelerate processes, scale environments and enable faster and safer iterations with CI/CD workflows."
+          description="CI/CD workflows speed up procedures, scale environments, and allow for safer, quicker iterations."
         />
         <TeamCard
-          icon="https://iamops.io/wp-content/uploads/2022/05/MicrosoftTeams-image-4-1024x1024.png"
+          icon={three}
           title="DevOps Engineer"
-          description="Dedicated to your tech team and business values. They act as the main point of contact for your DevOps Team."
+          description="Committed to your company values and technology team. They serve as your DevOps Team's primary point of contact."
         />
       </div>
     </div>

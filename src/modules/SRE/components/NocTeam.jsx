@@ -18,10 +18,10 @@ const NocTeam = () => {
               SRE Manager
             </h3>
             <p className="text-black text-sm sm:text-base">
-              Responsible for the design, set-up and continuous improvement of
-              your Monitoring Environment, the Monitoring Expert ensures all
-              your policies, tools and automations are implemented and running
-              smoothly.
+              The Monitoring Expert is in charge of designing, setting up, and
+              continuously improving your monitoring environment. They also make
+              sure that all of your automations, tools, and policies are put
+              into place and function properly.
             </p>
           </div>
         </div>
@@ -36,9 +36,9 @@ const NocTeam = () => {
               SRE Engineer
             </h3>
             <p className="text-black text-sm sm:text-base">
-              With several monitors and dashboards on our NOC Room Screens, the
-              NOC Engineer is highly responsive to any alerts or incidents that
-              affect your uptime, performance or security.
+              We have multiple monitors and dashboards on our NOC Room Screens,
+              so when there are any warnings or issues affecting your uptime,
+              performance, or security, the NOC Engineer can respond quickly.
             </p>
           </div>
         </div>

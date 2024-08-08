@@ -12,18 +12,18 @@ const PassionateDevops = () => {
         </h2>
         <span className="flex flex-col gap-6 text-[20px] font-normal text-black ">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-            fugiat, officia dolorum minus iure quae voluptate ipsam, atque
-            explicabo modi eveniet. Possimus adipisci fuga dolore mollitia ullam
-            quo laborum nulla!
+            At CloudArcOps, Terraform, EKS, and Kubernetes are our daily
+            essentials, and AWS Lambda is always on our minds. Our mission is to
+            prepare your infrastructure and CI/CD pipelines for seamless
+            scalability.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-            fugiat, officia dolorum minus iure quae voluptate ipsam, atque
-            explicabo modi eveniet. Possimus adipisci fuga dolore mollitia ullam
-            quo laborum nulla!
+            We proactively address potential failure points, enhance
+            performance, ensure uptime, and optimize costs. When incidents
+            arise, we take swift action, restoring operations efficiently no
+            matter the time of day.
           </p>
-          <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <p>We are your dedicated DevOps team. We are CloudArcOps.</p>
         </span>
       </div>
     </div>

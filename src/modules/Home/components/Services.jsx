@@ -9,13 +9,12 @@ const Services = () => {
             Our <span className="text-blue-500">services</span>
           </h2>
           <p className="text-lg text-black mb-8">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
-            Recusandae velit facilis, dolores et saepe possimus perferendis cum
-            officiis eaque doloribus nulla nihil qui cumque repudiandae <br />
-            temporibus harum sint sequi. Quasi!
+            We tailor solutions to match your unique demands, from achieving
+            production-grade readiness to preserving 24/7 uptime, bolstering
+            security, and maximizing cloud budgets.
           </p>
           <div className="flex">
-            <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-orange-600">
+            <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded ">
               Contact Us
             </button>
           </div>

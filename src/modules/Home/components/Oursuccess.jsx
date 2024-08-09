@@ -12,46 +12,59 @@ const Oursuccess = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-4 md:px-6 lg:px-8">
         <div className="bg-white rounded-xl shadow-2xl p-6 flex flex-col items-center text-center">
           <h3 className="text-lg sm:text-xl font-semibold mb-4">
-            Complete infrastructure in{" "}
-            <span className="font-bold text-blue-500">AWS</span>
+            Comprehensive Kubernetes Monitoring with Self-Hosted Grafana.{" "}
+            {/* <span className="font-bold text-blue-500">A Case Study</span> */}
           </h3>
           <p className="text-gray-700 mb-6 text-sm sm:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias
-            et harum neque nisi aliquam impedit deserunt? Est, nesciunt debitis
-            mollitia similique dolorem nihil tenetur, error inventore porro
-            magnam cum.
+            In the world of enterprise IT, effective monitoring of
+            infrastructure is a critical task. Ensuring that Kubernetes clusters
+            and their components are operating efficiently can be a challenge.
           </p>
-          <a href="#" className="bg-blue-500 text-white py-2 px-4 rounded-full">
+          <a
+            href="https://www.cloudarcops.com/blog?id=1"
+            className="bg-blue-500 text-white py-2 px-4 rounded-full"
+          >
             Read More
           </a>
         </div>
         <div className="bg-white rounded-xl shadow-2xl p-6 flex flex-col items-center text-center">
           <h3 className="text-lg sm:text-xl font-semibold mb-4">
-            Migration from{" "}
-            <span className="font-bold text-blue-500">EC2 to EKS</span>
+            Cost-Efficiency and Automation with Serverless Architecture{" "}
+            {/* <span className="font-bold text-blue-500">
+              For Enterprise Customers
+            </span> */}
           </h3>
           <p className="text-gray-700 mb-6 text-sm sm:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias
-            et harum neque nisi aliquam impedit deserunt? Est, nesciunt debitis
-            mollitia similique dolorem nihil tenetur, error inventore porro
-            magnam cum.
+            In the ever-evolving landscape of cloud computing, achieving
+            cost-efficiency and seamless automation is paramount for enterprise
+            customers. Recently, I successfully implemented a serverless
+            architecture.
           </p>
-          <a href="#" className="bg-blue-500 text-white py-2 px-4 rounded-full">
+          <a
+            href="https://www.cloudarcops.com/blog?id=2"
+            className="bg-blue-500 text-white py-2 px-4 rounded-full"
+          >
             Read More
           </a>
         </div>
         <div className="bg-white rounded-xl shadow-2xl p-6 flex flex-col items-center text-center">
           <h3 className="text-lg sm:text-xl font-semibold mb-4">
-            Migration from{" "}
-            <span className="font-bold text-blue-500">Heroku to GCP</span>
+            Revolutionizing Web Applications A Dive into My Three-Tier
+            Architecture{" "}
+            {/* <span className="font-bold text-blue-500">
+                AWS CloudFront
+            </span> */}
           </h3>
           <p className="text-gray-700 mb-6 text-sm sm:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias
-            et harum neque nisi aliquam impedit deserunt? Est, nesciunt debitis
-            mollitia similique dolorem nihil tenetur, error inventore porro
-            magnam cum.
+            In the evolving landscape of web development, the need for robust,
+            scalable, and efficient architectures has never been more critical.
+            As a seasoned DevOps engineer, I recently embarked on a journey to
+            develop.
           </p>
-          <a href="#" className="bg-blue-500 text-white py-2 px-4 rounded-full">
+          <a
+            href="https://www.cloudarcops.com/blog?id=3"
+            className="bg-blue-500 text-white py-2 px-4 rounded-full"
+          >
             Read More
           </a>
         </div>

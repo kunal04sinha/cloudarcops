@@ -2,6 +2,8 @@ import cloudMonitoring from "../../assets/images/CloudArcOps-Monitoring.jpg";
 import domainServerLess from "../../assets/images/domain-serverless.jpg";
 import thirdImg from "../../assets/images/cloudarcops-three-tear.drawio.png";
 import fourthImg from "../../assets/images/image-eks with autoscaking of nodes using karpenter.png";
+import automation from "../../assets/images/automation.png";
+import sixth from "../../assets/images/sixth.png";
 
 export const BlogData = [
   [
@@ -554,8 +556,8 @@ and costs are kept under control.
     },
     {
       paragraph: `To streamline our deployment process, we set up a robust CI/CD pipeline using AWS
-CodePipeline. This pipeline is triggered by commits to the GitHub repository, automating
-updates to Kubernetes deployments. The benefits include:`,
+      CodePipeline. This pipeline is triggered by commits to the GitHub repository, automating
+      updates to Kubernetes deployments. The benefits include:`,
     },
     {
       bullet: [
@@ -621,15 +623,205 @@ helped keep operational costs low.
     },
     {
       paragraph: `The transformation of [Fintech Company's] infrastructure using AWS EKS and Karpenter not
-only enhanced its scalability and reliability but also optimized costs, setting a strong foundation
-for future growth. This project demonstrates the power of AWS's managed services in building
-modern, efficient, and cost-effective application infrastructures.
+      only enhanced its scalability and reliability but also optimized costs, setting a strong foundation
+      for future growth. This project demonstrates the power of AWS's managed services in building
+      modern, efficient, and cost-effective application infrastructures.
 `,
     },
     {
       paragraph: `By sharing this journey, we hope to inspire other organizations to leverage similar strategies and
-technologies to achieve their own infrastructure goals
+      technologies to achieve their own infrastructure goals
 `,
+    },
+  ],
+  ///5
+  [
+    {
+      banner: {
+        mainText: "Creating a Streamlined DevOps Pipeline.",
+        secondText: "From Commit to Cloud",
+      },
+    },
+    {
+      paragraph:
+        "In the fast-evolving landscape of software development, the need for speed and reliability in deploying applications is paramount. My recent project, which involved automating the application deployment process using a Jenkins pipeline, represents a significant leap towards achieving operational efficiency and robustness in cloud infrastructure management. Here, I share the blueprint and success of automating multi-environment setups with minimal manual intervention, showcasing how the integration of various technologies can lead to a seamless deployment experience.",
+    },
+    {
+      heading: "The Challenge",
+    },
+    {
+      paragraph:
+        "The primary goal was to enable the deployment of a full-stack application across multiple environments with just a few clicks. The process required handling various aspects of the backend and frontend deployment, ensuring scalability, and managing resources efficiently while keeping costs in check.",
+    },
+    {
+      heading: "The Solution: A Multi-Tool Approach",
+    },
+    {
+      images: [
+        {
+          src: automation,
+          alt: "automation",
+        },
+      ],
+    },
+    {
+      paragraph: "The project hinged on leveraging several key technologies",
+    },
+    {
+      bullet: [
+        "Jenkins: Orchestrating the entire CI/CD pipeline, automating both integration and deployment processes based on Git commits.",
+        "Terraform: Utilized as an Infrastructure as Code (IaC) tool to provision and manage AWS resources dynamically.",
+        "Packer: Employed to create customized AMIs for the backend environment, ensuring that each deployment is tailored to the specific needs of the application.",
+        "Docker: Used to containerize the frontend, allowing for consistent deployments across all environments",
+      ],
+    },
+    {
+      heading: "Architecture Overview",
+    },
+    {
+      subHeading: "Backend Setup:",
+    },
+    {
+      bullet: [
+        "Base and New AMI: Started with a base AMI containing all necessary dependencies,then used Packer to script and create a new AMI specific to our backend needs.",
+        "Scalability: Integrated with AWS Auto Scaling Groups (ASG) and Spot EC2 instances to ensure cost-effectiveness and scalability.",
+      ],
+    },
+    {
+      subHeading: "Frontend Setup:",
+    },
+    {
+      bullet: [
+        "Docker and Jenkins: Automated the build process of the frontend code using Jenkins jobs, then packaged into Docker containers.",
+        "S3 Bucket: Deployed the static frontend content to an AWS S3 bucket, leveraging its scalability and reliability.",
+      ],
+    },
+    {
+      heading: "Achievements and Benefits",
+    },
+    {
+      bullet: [
+        "Rapid Scalability: The use of spot instances and auto-scaling groups allowed us to handle load variations without human intervention.",
+        "Cost Efficiency: Spot instances significantly reduced our compute costs, while automation minimized operational overhead.",
+        `Consistency and Reliability: Docker and Packer ensured that our environments are consistent and reproducible, reducing the typical "works on my machine" issues.`,
+        "Speed of Deployment: What used to take hours in manual setups now takes minutes,with fewer errors and inconsistencies.",
+      ],
+    },
+    {
+      heading: "Conclusion",
+    },
+    {
+      paragraph: `This project not only enhanced our deployment capabilities but also provided valuable insights
+      into the use of various DevOps tools in a real-world scenario. By documenting this journey, I
+      hope to inspire others to explore the benefits of automation in cloud deployments. The future of
+      cloud infrastructure is automated, and the tools we've integrated into our pipeline are at the
+      forefront of this revolution.`,
+    },
+    {
+      paragraph: `Feel free to share your thoughts or inquire more about specific parts of the project in the
+      comments below!`,
+    },
+  ],
+  //6
+  [
+    {
+      banner: {
+        mainText: `Building a Scalable and Resilient Media Platform with`,
+        secondText: `AWS`,
+      },
+    },
+
+    {
+      paragraph: `In today's digital age, the demand for fast, reliable, and scalable web services is paramount. We recently had the opportunity to architect and deploy a sophisticated media platform leveraging AWS's vast ecosystem. This blog post delves into the intricacies of our infrastructure, showcasing the design, deployment, and operational strategies that make our platform robust and efficient.`,
+    },
+
+    {
+      heading: `Overview of Our Infrastructure`,
+    },
+    {
+      images: [
+        {
+          src: sixth,
+          alt: "",
+        },
+      ],
+    },
+    {
+      paragraph: `Our platform, as illustrated in the diagram above, is a multi-tier architecture deployed on AWS, designed to handle high traffic and dynamic content delivery. Let's break down the components and their roles:`,
+    },
+
+    {
+      subHeading: "1.	Frontend Delivery with CloudFront and S3",
+    },
+    {
+      bullet: [
+        `Static Assets: We use Amazon S3 to store static content like images, videos, and other media. CloudFront, AWS's global Content Delivery Network (CDN), serves these assets, ensuring low latency and high availability.`,
+        `Dynamic Content: Our media services are delivered via multiple subdomains , each served through CloudFront for caching and optimized delivery.`,
+      ],
+    },
+    {
+      subHeading: "2.	Backend Services in a VPC",
+    },
+    {
+      bullet: [
+        `The backend services, including our frontend, backend, and other APIs, are hosted within a Virtual Private Cloud (VPC) for security and network isolation. These services are auto-scaled using AWS Elastic Beanstalk, which automatically adjusts the number of instances based on resource utilization (e.g., CPU usage above 60%).`,
+      ],
+    },
+    {
+      subHeading: "3.	Database and Storage",
+    },
+    {
+      bullet: [
+        `Database: We use Amazon RDS with MariaDB for our primary database, ensuring reliability and automatic backups`,
+        `File Storage: An Elastic File System (EFS) is used for storing application data that needs to be shared across instances.`,
+      ],
+    },
+    {
+      subHeading: "4.	Security and Monitoring",
+    },
+    {
+      bullet: [
+        `Our security measures include AWS SSM for configuration management, GuardDuty for threat detection, and CloudWatch for monitoring and logging. We also utilize AWS Certificate Manager for SSL/TLS certificates, ensuring secure communications.`,
+      ],
+    },
+    {
+      subHeading: "5.	CI/CD Pipeline",
+    },
+    {
+      bullet: [
+        `The development workflow is streamlined with Bitbucket for source control and AWS CodePipeline for continuous integration and deployment. The pipeline is triggered on every commit to the "master" and "dev" branches, automating the build, test, and deployment processes`,
+      ],
+    },
+    {
+      subHeading: "6.	Scalability and High Availability",
+    },
+    {
+      bullet: [
+        `The platform's auto-scaling feature, coupled with load balancers, ensures that we can handle traffic spikes seamlessly. The load balancers distribute incoming traffic across healthy instances, enhancing both performance and availability.`,
+      ],
+    },
+    {
+      heading: `Key Achievements`,
+    },
+    {
+      numbericList: [
+        `Scalability: The auto-scaling setup ensures that our platform can handle sudden increases in traffic without compromising performance.`,
+        `Resilience: With multiple availability zones and automated recovery, we achieve high availability and quick recovery from failures.`,
+        `Security: Our use of AWS's security services ensures that the platform is protected against common threats and vulnerabilities.`,
+        `Efficiency: The use of CloudFront and S3 reduces load on our servers, optimizing cost and performance.`,
+      ],
+    },
+    {
+      heading: `Challenges and Learnings`,
+    },
+    {
+      paragraph: `One of the significant challenges was optimizing the CI/CD pipeline for rapid and reliable deployments. We leveraged AWS CodePipeline's features to create a robust workflow that ensures code quality and smooth rollouts. Another challenge was fine-tuning the auto-scaling parameters to balance cost and performance. By monitoring traffic patterns and resource usage, we optimized the scaling policies to meet demand efficiently.`,
+    },
+    {
+      heading: `Conclusion`,
+    },
+    {
+      paragraph: `Building this platform has been an exhilarating journey, showcasing the power of cloud-native solutions in delivering high-performance and scalable applications. The combination of AWS's comprehensive service offerings and our architectural decisions has enabled us to build a platform that is not only robust but also flexible enough to evolve with future needs.`,
     },
   ],
 ];

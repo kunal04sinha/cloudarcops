@@ -7,7 +7,7 @@ import { paths } from "../const/path";
 
 const MENU_ITEMS = [
   {
-    title: "Devops",
+    title: "DevOps",
     path: `${paths.services}/${paths.devops}`,
   },
   {

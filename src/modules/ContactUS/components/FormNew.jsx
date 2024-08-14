@@ -41,7 +41,7 @@ const FormNew = () => {
         <form ref={form} onSubmit={sendEmail}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div>
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
+              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 required-asterisk">
                 First Name
               </label>
               <input
@@ -54,7 +54,7 @@ const FormNew = () => {
               />
             </div>
             <div>
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
+              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 required-asterisk">
                 Last Name
               </label>
               <input
@@ -68,7 +68,9 @@ const FormNew = () => {
             </div>
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700">Email</label>
+            <label className="block text-gray-700 required-asterisk">
+              Email
+            </label>
             <input
               type="email"
               name="email"
@@ -79,7 +81,9 @@ const FormNew = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700">Phone Number</label>
+            <label className="block text-gray-700 required-asterisk">
+              Phone Number
+            </label>
             <input
               type="tel"
               name="number"
@@ -95,11 +99,13 @@ const FormNew = () => {
               name="companyName"
               className="mt-2 p-2 border border-gray-300 rounded w-full"
               placeholder="example:CloudArcOps"
-              disabled={loading}
+              // disabled={loading}
             />
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700">Message</label>
+            <label className="block text-gray-700 required-asterisk">
+              Message
+            </label>
             <textarea
               name="message"
               className="mt-2 p-2 border border-gray-300 rounded w-full"
@@ -109,20 +115,7 @@ const FormNew = () => {
               disabled={loading}
             ></textarea>
           </div>
-          <div className="mb-4">
-            <label className="inline-flex items-center">
-              <input
-                type="checkbox"
-                name="privacy"
-                className="form-checkbox"
-                required
-                disabled={loading}
-              />
-              <span className="ml-2">
-                You agree to our friendly privacy policy
-              </span>
-            </label>
-          </div>
+
           <div>
             <button
               type="submit"

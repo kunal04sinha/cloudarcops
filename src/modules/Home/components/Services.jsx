@@ -14,9 +14,12 @@ const Services = () => {
             security, and maximizing cloud budgets.
           </p>
           <div className="flex">
-            <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded ">
+            <a
+              href="https://www.cloudarcops.com/contact"
+              className="bg-blue-500 text-white font-bold py-2 px-4 rounded "
+            >
               Contact Us
-            </button>
+            </a>
           </div>
         </div>
         <div>

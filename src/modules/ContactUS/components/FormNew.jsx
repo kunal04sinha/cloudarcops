@@ -135,18 +135,12 @@ const FormNew = () => {
       <div className="space-y-4">
         <div className="bg-blue-100 p-4 rounded-lg flex items-center">
           <span className="material-icons text-blue-600">email</span>
-          <span className="ml-2">cloudarcops@gmail.com</span>
+          <span className="ml-2">info@cloudarcops.com</span>
         </div>
         <div className="text-gray-600 text-sm mt-2">
           Our friendly team is here to help.
         </div>
-        <div className="bg-blue-100 p-4 rounded-lg flex items-center">
-          <span className="material-icons text-blue-600">location_on</span>
-          <span className="ml-4">cloudarcops@.in</span>
-        </div>
-        <div className="text-gray-600 text-sm mt-2">
-          Come say hello at our office HQ.
-        </div>
+
         <div className="bg-blue-100 p-4 rounded-lg flex items-center">
           <span className="material-icons text-blue-600">phone</span>
           <span className="ml-4">+91 8153804742</span>

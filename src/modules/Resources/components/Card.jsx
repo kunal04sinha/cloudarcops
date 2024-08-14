@@ -21,6 +21,7 @@ const Card = ({
         />
       </div>
       <div className="p-6">
+        <p className="font-bold text-[#3B82F6] mb-4">{title}</p>
         <p className="text-gray-700 mb-4">{description}</p>
         <div className="text-right py-5">
           <Link

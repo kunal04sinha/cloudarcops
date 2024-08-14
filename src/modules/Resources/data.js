@@ -9,7 +9,7 @@ export const data = [
   {
     id: 1,
     title:
-      "Comprehensive Kubernetes Monitoring with Self-Hosted Grafana: A Case Study",
+      "Comprehensive Kubernetes Monitoring with Self-Hosted Grafana: A Case Study.",
     imageUrl: cloudMonitoring,
     description:
       "In the world of enterprise IT, effective monitoring of infrastructure is a critical task. Ensuring that Kubernetes clusters and their components are operating efficiently can be a challenge, especially at scale. In this blog .....",

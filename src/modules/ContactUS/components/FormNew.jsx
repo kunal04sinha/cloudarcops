@@ -156,7 +156,7 @@ const FormNew = () => {
         </div>
         <div className="bg-blue-100 p-4 rounded-lg flex items-center">
           <span className="material-icons text-blue-600">phone</span>
-          <span className="ml-4">+91 9999999999</span>
+          <span className="ml-4">+91 8153804742</span>
         </div>
         <div className="text-gray-600 text-sm mt-2">
           Come say hello at our office HQ.

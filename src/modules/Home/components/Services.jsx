@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -14,12 +15,12 @@ const Services = () => {
             security, and maximizing cloud budgets.
           </p>
           <div className="flex">
-            <a
-              href="https://www.cloudarcops.com/contact"
+            <Link
+              to="/contact"
               className="bg-blue-500 text-white font-bold py-2 px-4 rounded "
             >
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
         <div>

@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import { paths } from "../../../const/path";
 const Oursuccess = () => {
   return (
     <div className="container mx-auto py-12 px-4 md:py-28 sm:px-6 lg:px-8">
@@ -20,12 +21,12 @@ const Oursuccess = () => {
             infrastructure is a critical task. Ensuring that Kubernetes clusters
             and their components are operating efficiently can be a challenge.
           </p>
-          <a
-            href="https://www.cloudarcops.com/blog?id=1"
+          <Link
+            to="blog?id=1"
             className="bg-blue-500 text-white py-2 px-4 rounded-full"
           >
             Read More
-          </a>
+          </Link>
         </div>
         <div className="bg-white rounded-xl shadow-2xl p-6 flex flex-col items-center text-center">
           <h3 className="text-lg sm:text-xl font-semibold mb-4">
@@ -40,12 +41,12 @@ const Oursuccess = () => {
             customers. Recently, I successfully implemented a serverless
             architecture.
           </p>
-          <a
-            href="https://www.cloudarcops.com/blog?id=2"
+          <Link
+            to="blog?id=2"
             className="bg-blue-500 text-white py-2 px-4 rounded-full"
           >
             Read More
-          </a>
+          </Link>
         </div>
         <div className="bg-white rounded-xl shadow-2xl p-6 flex flex-col items-center text-center">
           <h3 className="text-lg sm:text-xl font-semibold mb-4">
@@ -61,12 +62,12 @@ const Oursuccess = () => {
             As a seasoned DevOps engineer, I recently embarked on a journey to
             develop.
           </p>
-          <a
-            href="https://www.cloudarcops.com/blog?id=3"
+          <Link
+            to="blog?id=3"
             className="bg-blue-500 text-white py-2 px-4 rounded-full"
           >
             Read More
-          </a>
+          </Link>
         </div>
       </div>
     </div>

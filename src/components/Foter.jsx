@@ -57,12 +57,12 @@ const Footer = ({ handleLinkClick }) => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="https://www.cloudarcops.com/services/devops"
+                <Link
+                  to="/services/devops"
                   className="text-black hover:underline"
                 >
                   Services
-                </a>
+                </Link>
               </li>
               <li>
                 <Link

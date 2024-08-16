@@ -3,6 +3,7 @@ import two from "../../../assets/images/3.png";
 import three from "../../../assets/images/4.png";
 import four from "../../../assets/images/5.png";
 import five from "../../../assets/images/8.png";
+import six from "../../../assets/images/6.png";
 
 export const services = [
   {
@@ -41,7 +42,7 @@ export const services = [
     number: 6,
     title: "Security",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit sdam sequi omnis, error similique",
-    logoImage: five,
+      "To make sure your software is robust and protected. We implement advanced tools to identify and mitigate vulnerabilities",
+    logoImage: six,
   },
 ];

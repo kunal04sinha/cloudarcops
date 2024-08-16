@@ -48,14 +48,21 @@ const Footer = ({ handleLinkClick }) => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-black hover:underline">
+                <Link
+                  to={paths.home}
+                  onClick={() => handleLinkClick(paths.home)}
+                  className="text-black hover:underline"
+                >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-black hover:underline">
+                <Link
+                  to="/services/devops"
+                  className="text-black hover:underline"
+                >
                   Services
-                </a>
+                </Link>
               </li>
               <li>
                 <Link
